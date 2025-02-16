@@ -18,6 +18,13 @@ Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
 ```bash
 git clone https://github.com/dianadance/cypress-cucumber-exercise1.git
 
+2. Instalar las dependencias
+Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+```bash
+npm install
 
+3. Configuración de Cypress y Cucumber
+El proyecto ya está configurado para utilizar Cypress con el preprocesador de Cucumber, pero si por alguna razón necesitas reconfigurarlo, sigue estos pasos:
 
-
+Asegúrate de que el archivo cypress.config.js esté configurado para usar Cucumber.
+El archivo de características (.feature) está ubicado en cypress/e2e/features/PurchaseProducts.feature y los pasos en cypress/e2e/step_definitions/PurchaseProductsSteps.js.
