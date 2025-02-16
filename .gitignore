@@ -1,0 +1,6 @@
+.idea
+logs
+node_modules/
+jspm_packages/
+typings/
+cypress/cucumber-json
