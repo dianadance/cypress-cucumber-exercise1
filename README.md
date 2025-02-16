@@ -15,12 +15,10 @@ Sigue estos pasos para clonar el repositorio y configurar el proyecto en tu máq
 1. Clonar el repositorio
 Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
 
-```bash
 git clone https://github.com/dianadance/cypress-cucumber-exercise1.git
 
 2. Instalar las dependencias
 Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias:
-```bash
 npm install
 
 3. Configuración de Cypress y Cucumber
