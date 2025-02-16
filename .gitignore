@@ -1,6 +1,9 @@
-.idea
-logs
 node_modules/
-jspm_packages/
-typings/
+# Cypress folder
+cypress/videos/
+cypress/screenshots/
 cypress/cucumber-json
+
+# Logs
+npm-debug.log
+
