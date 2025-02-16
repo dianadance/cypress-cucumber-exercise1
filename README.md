@@ -11,3 +11,11 @@ Para ejecutar este proyecto localmente, se requiere tener instalados los siguien
 
 ```bash
 npm --version
+
+# Instalación
+Sigue estos pasos para clonar el repositorio y configurar el proyecto en tu máquina local.
+
+1. Clonar el repositorio
+Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
+```bash
+git clone https://github.com/dianadance/cypress-cucumber-exercise1.git
