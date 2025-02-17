@@ -16,20 +16,24 @@ Sigue estos pasos para clonar el repositorio y configurar el proyecto en tu máq
 
 Abre una terminal y ejecuta el siguiente comando para clonar el repositorio:
 
+```bash
 git clone https://github.com/dianadance/cypress-cucumber-exercise1.git
+```
 
 **2. Instalar las dependencias**
 
 Accede a la carpeta del proyecto y ejecuta el siguiente comando para instalar las dependencias:
 
+```bash
 npm install
+```
 
 **3. Configuración de Cypress y Cucumber**
 
 El proyecto ya está configurado para utilizar Cypress con el preprocesador de Cucumber, pero si por alguna razón necesitas reconfigurarlo, sigue estos pasos:
 
 - Asegúrate de que el archivo cypress.config.js esté configurado para usar Cucumber.
-- El archivo de características (.feature) está ubicado en cypress/e2e/features/PurchaseProducts.feature y los pasos en cypress/e2e/step_definitions/PurchaseProductsSteps.js.
+- El archivo de características (.feature) está ubicado en ```cypress/e2e/features/PurchaseProducts.feature``` y los pasos en ```cypress/e2e/step_definitions/PurchaseProductsSteps.js.```
 
 ## Ejecutar las Pruebas
 
@@ -37,20 +41,24 @@ El proyecto ya está configurado para utilizar Cypress con el preprocesador de C
 
 1. Para abrir la interfaz de Cypress y ejecutar las pruebas de manera interactiva, utiliza el siguiente comando:
 
+```bash
 npx cypress open
+```
 
 2. Esto abrirá una ventana gráfica donde podrás seleccionar la opción **E2E Testing**.
 
 3. Debes seleccionar el navegador en el que quieres ejecutar las pruebas y darle click al botón **Start E2E Testing in (nombre del navegador seleccionado)**
 
-4. Se abrirá una ventana en la que se muestra el archivo .feature que contiene las pruebas para el ejercicio de flujo de compra. Dar click sobre este archivo: **PurchaseProducts.feature**
+4. Se abrirá una ventana en la que se muestra el archivo .feature que contiene las pruebas para el ejercicio de flujo de compra. Dar click sobre este archivo: ```PurchaseProducts.feature```
 
 
 -**Ejecutar las pruebas en modo headless (sin interfaz gráfica)**
 
 Si prefieres ejecutar las pruebas en segundo plano, sin la interfaz gráfica de Cypress, puedes usar el siguiente comando:
 
+```bash
 npx cypress run
+```
 
 Este comando ejecutará todas las pruebas de forma automática en la terminal.
 
