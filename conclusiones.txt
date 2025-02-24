@@ -1,0 +1,8 @@
+CONCLUSIONES
+El ejercicio fue implementado con Cypress y Cucumber siguiendo patrón de diseño Screenplay. 
+Cabe recalcar que al ser implementado con estas tecnologías no se requiere un archivo POM.xml para el manejo de dependencias. Las dependencias se puede encontrar en el archivo package.json.
+Se reestructuró el proyecto para implementar los cambios solicitados con el diseño Screenplay.
+También se encontraron modificaciones en el contenido de la página con respecto a la primera entrega del ejercicio. Como por ejemplo en algunos nombres de los productos y en el css de los elementos web. Esto ocasionó que las ejecuciones fueran fallidas y requirieran más tiempo.
+
+Puntos de mejora:
+Aunque el ejercicio especifica la herramienta deseada, no brindaba más detalles, como el contenido del archivo de conclusiones o si se requiere implementarlo con un patrón de diseño determinado. Se recomienda agregar los detalles a las instrucciones del ejercicio.
